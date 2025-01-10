@@ -33,7 +33,7 @@ const Home = () => {
       <Subhome />
       <Bestsellers products={products}/>
       <Giftcard/>
-      <ProductDisplay products={products} />
+      {/* <ProductDisplay products={products} /> */}
     </div>
   );
 };
