@@ -1,0 +1,51 @@
+.sale-main {
+    margin-top: 80px;
+    padding: 0px 10px;
+}
+
+.sale-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.category-toggle-buttons {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.toggle-button.merged {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.toggle-button.merged span {
+    padding: 0 5px;
+}
+
+.toggle-button.merged span.active {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .sale-main {
+        padding: 0;
+    }
+}

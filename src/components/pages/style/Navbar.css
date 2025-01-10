@@ -1,0 +1,149 @@
+.navbar {
+  background-color: #ffffff !important;
+  z-index: 1111111;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.205);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: 700 !important;
+  letter-spacing: 1.7px;
+  font-size: 13px !important;
+}
+
+.navbar-toggler {
+  border: none;
+  background: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icon {
+  gap: 10px;
+}
+
+.nav-item a.nav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000 !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-item a.nav-link:hover {
+  color: #555 !important;
+  text-decoration: underline;
+}
+
+.nav-item a.nav-link[href="/sale"] {
+  color: #d12c00 !important;
+  font-weight: bold;
+}
+
+.navbar ul>a {
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000 !important;
+  text-decoration: none;
+  margin: 0 30px;
+}
+
+.nav-item a.nav-link i {
+  font-size: 18px;
+  color: #000;
+}
+
+.nav-item a.nav-link i:hover {
+  color: #555;
+}
+
+.user-popup {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 200px;
+}
+
+.user-icon i {
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+}
+
+.user-popup .username {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logout-button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  ul>a {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+.home-page {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}

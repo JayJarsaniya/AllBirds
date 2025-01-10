@@ -1,0 +1,186 @@
+.payment-main {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 50px 0px;
+  background-color: transparent;
+}
+
+.payment-page {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment-page-empty {
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.no-items-message {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.continue-shopping-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.continue-shopping-btn:hover {
+  background-color: #0056b3;
+}
+
+.payment-header {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cart-summary {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.cart-summary-title {
+  font-size: 22px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.summary-item {
+  margin-bottom: 15px;
+}
+
+.item-name,
+.item-quantity,
+.item-price {
+  margin: 5px 0;
+  color: #555;
+}
+
+.subtotal {
+  text-align: right;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.payment-form {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.payment-form:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.payment-form-title {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.payment-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.form-label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.card-input,
+.expiry-input,
+.cvv-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card-input:focus,
+.expiry-input:focus,
+.cvv-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.card-input::placeholder,
+.expiry-input::placeholder,
+.cvv-input::placeholder {
+  color: #aaa;
+}
+
+.place-order-btn {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.place-order-btn:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-2px);
+}
+
+.place-order-btn:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 768px) {
+  .payment-form-fields {
+    gap: 12px;
+  }
+
+  .card-input,
+  .expiry-input,
+  .cvv-input {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .place-order-btn {
+    font-size: 16px;
+    padding: 16px;
+  }
+}

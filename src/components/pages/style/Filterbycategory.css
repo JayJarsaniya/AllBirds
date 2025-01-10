@@ -1,0 +1,30 @@
+.category-shorting {
+    margin-top: 30px;
+
+    button {
+        background: transparent;
+        border: none;
+        text-align: start;
+        margin: 10px 0px;
+        font-size: 14px;
+        display: flex;
+        border-bottom: 2px solid transparent;
+        transition: all 0.4s linear;
+    }
+
+    button:hover {
+        border-bottom: 2px solid black;
+    }
+
+    .category-shorting-heading {
+        line-height: 30px;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+}
+
+.price-filter-heading {
+    font-weight: 600;
+    letter-spacing: 2px;
+}

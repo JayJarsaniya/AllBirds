@@ -1,0 +1,47 @@
+.store-main{
+    margin-top: 80px;
+    .country-title{
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin: 30px 20px;
+    }
+}
+.store-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+    margin: 0px 20px;
+  }
+  
+  .store-card {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .store-card h5 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .store-card p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .store-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .store-card {
+      width: 100%; /* Stacks items vertically on smaller screens */
+    }
+  }
+  
