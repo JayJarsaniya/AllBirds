@@ -19,7 +19,7 @@ const User = () => {
 
   const auth = getAuth(app);
   const provider = new GoogleAuthProvider();
-  const navigate = useNavigate(); // Initialize navigate
+  const navigate = useNavigate(); 
 
   const handleAction = () => {
     if (isLogin) {
@@ -28,7 +28,7 @@ const User = () => {
           alert("Login successful!");
           console.log(userCredential.user);
           clearInputs();
-          navigate("/"); // Redirect to home
+          navigate("/"); 
         })
         .catch((error) => {
           alert(error.message);
@@ -39,7 +39,7 @@ const User = () => {
           alert(`Signup successful! Welcome, ${username}`);
           console.log(userCredential.user);
           clearInputs();
-          navigate("/"); // Redirect to home
+          navigate("/"); 
         })
         .catch((error) => {
           alert(error.message);
@@ -53,7 +53,7 @@ const User = () => {
         alert("Google login successful!");
         console.log(result.user);
         clearInputs();
-        navigate("/"); // Redirect to home
+        navigate("/"); 
       })
       .catch((error) => {
         alert(error.message);

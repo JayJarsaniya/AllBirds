@@ -140,7 +140,6 @@ h3.mt-5 {
   border: 2px solid #0056b3;
 }
 
-/* Responsive Design for Button */
 @media (max-width: 768px) {
   .proceed-to-payment-btn {
     font-size: 16px;

@@ -8,7 +8,7 @@ const MenUnder100 = ({ product }) => {
         <React.Fragment>
             <div className="discount-main">
                 <h5>Up To 50% Off</h5>
-                <p>Your faves on sale? Say less. Get ‘em before they're gone.</p>
+                <p>Your faves on sale? Say less. Get 'em before they're gone.</p>
             </div>
             <div className='product-grid-container-socks mt-5'>
 

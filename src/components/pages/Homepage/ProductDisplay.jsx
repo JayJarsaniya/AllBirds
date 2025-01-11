@@ -41,7 +41,7 @@ const ProductDisplay = ({ products }) => {
   return (
     <React.Fragment>
       <div className="product-slider">
-        <h5 className="mb-3">MORE TO SHOP</h5>
+        <h5 className="mb-3 ms-3">MORE TO SHOP</h5>
         {showLeft && (
           <button className="slider-btn left" onClick={scrollLeft}>
             &#8592;

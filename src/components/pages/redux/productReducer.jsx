@@ -79,7 +79,7 @@ const cartReducer = (state = cartInitialState, action) => {
             ? { ...item, quantity: item.quantity - 1 }
             : item
         )
-        .filter((item) => item.quantity > 0); // Ensure no items with 0 quantity
+        .filter((item) => item.quantity > 0);
       updateLocalStorage(updatedCart);
       return { ...state, cart: updatedCart };
 
@@ -88,7 +88,6 @@ const cartReducer = (state = cartInitialState, action) => {
   }
 };
 
-// Root Reducer
 const rootReducer = combineReducers({
   products: productReducer,
   cart: cartReducer,

@@ -41,7 +41,7 @@
   
   @media (max-width: 768px) {
     .store-card {
-      width: 100%; /* Stacks items vertically on smaller screens */
+      width: 100%; 
     }
   }
   

@@ -56,3 +56,9 @@
     height: 87vh;
     object-fit: cover;
 }
+
+@media screen and (max-width:768px) {
+    .carousel-inner img{
+        height: auto;
+    }
+}

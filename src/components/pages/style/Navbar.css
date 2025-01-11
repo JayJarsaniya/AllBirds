@@ -11,6 +11,23 @@
   width: 100%;
 }
 
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  border: none !important;
+}
+
+.navbar-collapse {
+  margin-top: 10px !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .container-fluid {
   display: flex;
   justify-content: space-between;

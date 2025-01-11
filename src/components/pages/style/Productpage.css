@@ -66,7 +66,6 @@
 }
 
 .product-card-container:hover {
-    /* transform: translateY(-5px); */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -103,7 +102,6 @@
 }
 
 
-/* Medium Screens (Tablets) */
 @media (max-width: 1024px) {
     .product-grid-container {
         grid-template-columns: repeat(2, 1fr);
@@ -142,7 +140,6 @@
     }
 }
 
-/* Very Small Screens */
 @media (max-width: 480px) {
     .price-filter-container {
         padding: 15px;
@@ -150,12 +147,10 @@
 
     .filter-inputs-container {
         gap: 10px;
-        /* Reduce spacing */
     }
 
     .price-filter-container input {
         font-size: 12px;
-        /* Adjust font size */
         padding: 6px 10px;
     }
 

@@ -81,7 +81,6 @@ const Women = ({ products }) => {
         </div>
       </div>
 
-      {/* Products Display */}
       <div className="product-grid-container">
         {filteredProducts.map((product) => (
           <Productpage key={product.id} product={product} />
